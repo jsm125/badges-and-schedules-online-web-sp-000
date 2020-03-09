@@ -4,8 +4,8 @@ end
 
 def batch_badge_creator(attendees)
   messages = []
-  messages << attendees
-  return "Hello, my name is #{name}."
+  messages << badge_maker
+  return messages
 end
 
 def assign_rooms
