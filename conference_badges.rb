@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   messages = []
-  messages << badge_maker
+  messages << badge_maker(attendees)
   return messages
 end
 
